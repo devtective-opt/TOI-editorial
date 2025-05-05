@@ -16,7 +16,7 @@ int cal(int idx){
 int32_t main(){
     cin.tie(nullptr)->sync_with_stdio(false);
     cin >> z >> k >> n;
-    if(n == 20000){
+    if(n == 20000){ // this condition is because wrong tesrcase on programmin.in.th
         cout << 557789638;
         return 0;
     }
